@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
- * more_numbers -> printing more numbers
+ * more_numbers - print more numbers
  */
 
 void more_numbers(void)
 {
-	int x, y;
+	int i, j;
 
-	for (x = 0 ; x < 10 ; x++)
+	for (i = 1; i <= 10; i++)
 	{
-		for (y = 0 ; y < 15 ; y++)
+		for (j = 0; j <= 14; j++)
 		{
-			_putchar(y + '0');
-
+			if (j >= 10)
+				_putchar('1');
+			_putchar (j % 10 + '0');
 		}
 		_putchar('\n');
-
 	}
-
 }
+
+
