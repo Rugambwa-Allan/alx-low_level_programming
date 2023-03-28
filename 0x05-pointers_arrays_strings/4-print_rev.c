@@ -3,7 +3,7 @@
 /**
  *  print_rev - prints string in reverse
  *  @s: function parameter
- *  Return: always 0
+ *  Return: Always 0
  */
 
 
@@ -17,7 +17,6 @@ void print_rev(char *s)
 	for (i = count ; i >= 0 ; i--)
 		_putchar(s[i]);
 	_putchar('\n');
-
 
 
 }
