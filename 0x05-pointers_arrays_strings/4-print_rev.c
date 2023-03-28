@@ -2,8 +2,8 @@
 
 /**
  *  print_rev - prints string in reverse
- *  @s: function parameter
- *  Return: Always 0
+ *  @s: string
+ *  Return: 0
  */
 
 
