@@ -4,7 +4,7 @@
  * print_listint - prints all  elements of a linked list
  * @h: linked list of type listint_t to print
  *
- * Return: number of nodes
+ * Return: num
  */
 size_t print_listint(const listint_t *h)
 {
@@ -12,7 +12,7 @@ size_t print_listint(const listint_t *h)
 
 	while (h)
 	{
-		printf("%d\n", h->z);
+		printf("%d\n", h->n);
 		num++;
 		h = h->next;
 	}
